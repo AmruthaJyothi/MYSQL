@@ -41,9 +41,16 @@ Id Fname Lname Population Rating Country_Id Country_name
  5. Write a query to print the minimum population from Persons table. 
  6. Insert 2 new rows to the Persons table making the Lname NULL. Then write another query to count Lname from Persons table.
  7. Write a query to find the number of rows in the Persons table.
- 8. Write an SQL query to show the population of the Country table for the first 3 rows. (Hint: Use LIMIT)
- 9. Write a query to print 3 random rows of countries. (Hint: Use rand() function and LIMIT) 
- 10. List all persons ordered by their rating in descending order.
- 11. Find the total population for each country in the Persons table. 
- 12. Find countries in the Persons table with a total population greater than 50,000 
- 13. List the total number of persons and average rating for each country, but only for countries with more than 2 persons, ordered by the average rating in ascending order
+**Assignment6 : Join & Union**
+Consider the Country table and Persons table that you created earlier and perform the following:
+ (1)Perform inner join, Left join, and Right join on the tables.
+(2)List all distinct country names from both the Country and Persons tables.
+ (3)List all country names from both the Country and Persons tables, including duplicates.
+ (4)Round the ratings of all persons to the nearest integer in the Persons table.
+    
+ 9. Write an SQL query to show the population of the Country table for the first 3 rows. (Hint: Use LIMIT)
+ 10. Write a query to print 3 random rows of countries. (Hint: Use rand() function and LIMIT) 
+ 11. List all persons ordered by their rating in descending order.
+ 12. Find the total population for each country in the Persons table. 
+ 13. Find countries in the Persons table with a total population greater than 50,000 
+ 14. List the total number of persons and average rating for each country, but only for countries with more than 2 persons, ordered by the average rating in ascending order
